@@ -1,0 +1,95 @@
+/* todo list main wrapper ul */
+#todo-lists {
+  list-style: none;
+  padding-left: 0px;
+}
+#todo-lists li {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5px;
+  padding: 14px 14px 0 14px;
+}
+#todo-lists li:hover {
+  background-color: white;
+  border-radius: 5px;
+}
+
+#todo-lists li p {
+  font-size: 19px;
+  color: #0000009e;
+}
+#todo-lists li p i {
+  color: #007bff;
+  margin-right: 8px;
+}
+
+/* delate button css*/
+#todo-lists li span {
+  cursor: pointer;
+
+  color: red;
+}
+#todo-lists li span:hover {
+  color: black;
+}
+
+/* todo title */
+.add-todo span i {
+  color: #007bff;
+
+  font-size: 52px;
+  margin-right: 13px;
+}
+.add-todo span h2 {
+  font-size: 38px;
+  color: #007bff;
+  font-weight: 400;
+}
+
+/* todo main wrapper */
+
+.add-todo {
+  padding: 41px 0 10px 0;
+}
+
+/* todo form */
+
+.todo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: white;
+  box-shadow: 0 1px 13px #0000001a;
+  padding: 0 10px 0 15px;
+  border-radius: 5px;
+}
+.todo-form input {
+  border: none;
+  width: 90%;
+  height: 60px;
+
+  font-size: 19px;
+}
+.todo-form input:focus {
+  outline: none;
+}
+.todo-form button {
+  width: 10%;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+
+  background-color: #007bff;
+  color: white;
+}
+
+/* card design */
+.wrapper-card {
+  box-shadow: 0 6px 24px #5a677630;
+  border-radius: 6px !important;
+  border: none !important;
+
+  background-color: #f8f9fa;
+}
